@@ -44,14 +44,14 @@ namespace Week7CodeChallenge.Controllers
                 return View("Error");
             }
 
-            return RedirectToAction("ThankYou", "Home");
+            return View("ThankYou");
 
         }
 
-        public ActionResult ThankYou()
-        {
-            return PartialView();
-        }
+        //public ActionResult ThankYou()
+        //{
+        //    return PartialView();
+        //}
 
         public ActionResult Work()
         {

@@ -34,12 +34,13 @@ $(document).ready(function () {
     $("body").on("click", "a#Where", ajaxGetAbout
       );
 
-    $("body").on("click", "button#submit", function () {
-        var theTag = $(this);
-        $.get("Home/ThankYou", function (data) {
-            theTag.closest("body").find("div.container").html(data);
-        });
-    });
+    //$("body").on("click", "button#submit", function (event) {
+    //    event.preventDefault();
+    //    var theTag = $(this);
+    //    $.get("/Home/ThankYou", function (data) {
+    //        theTag.closest("body").find("div.container").html(data);
+    //    });
+    //});
 });
 
 
