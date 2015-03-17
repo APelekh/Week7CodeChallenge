@@ -44,7 +44,7 @@ namespace Week7CodeChallenge.Controllers
                 return View("Error");
             }
 
-            return View("ThankYou");
+            return PartialView("ThankYou");
 
         }
 
